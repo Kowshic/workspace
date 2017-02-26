@@ -1,0 +1,24 @@
+package linkedIN;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LinkedInWrapper {
+	
+	WebDriver driver;
+	
+	/**
+	 * launchURL is used for passing the url
+	 * @param url
+	 */
+	public void launchURL(String url)
+	{
+		driver = new FirefoxDriver();
+		driver.navigate().to(url);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+	}
+
+}

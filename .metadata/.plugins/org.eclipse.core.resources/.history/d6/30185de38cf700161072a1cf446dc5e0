@@ -1,0 +1,33 @@
+package linkedIN;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.testng.annotations.Test;
+
+public class LinkedIn {
+
+	LinkedInWrapper lw = new LinkedInWrapper();
+
+	@Test
+	public void startPage() throws IOException {
+
+		FileReader file = new FileReader("linkedIn.properties");
+
+		Properties prop = new Properties();
+		try {
+			prop.load(file);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+//	    lw.launchFirefoxURL(prop.getProperty("url"));
+//		lw.launchChromeURL(prop.getProperty("url"));
+		lw.launchInternetExplorerURL(prop.getProperty("url"));
+		
+
+	}
+	
+}

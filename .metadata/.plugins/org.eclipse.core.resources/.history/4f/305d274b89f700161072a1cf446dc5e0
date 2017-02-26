@@ -1,0 +1,35 @@
+package linkedIN;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LinkedInWrapper {
+	
+	
+	/**
+	 * launchURL is used for passing the url
+	 * @param url
+	 */
+	public void launchFirefoxURL(String url)
+	{
+		WebDriver driver;
+		driver = new FirefoxDriver();
+		driver.navigate().to(url);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+	}
+	
+	public void launchChromeURL(String url)
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Krish\\workspace\\Selenium\\driver\\chromedriver.exe");
+		WebDriver cdriver = new ChromeDriver();
+		cdriver.navigate().to(url);
+		cdriver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		cdriver.manage().window().maximize();
+	}
+	
+	
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="160" started-at="2017-02-26T11:25:57Z" finished-at="2017-02-26T11:25:57Z">
+    <groups>
+      <group name="regression">
+        <method signature="NewTest.show()[pri:0, instance:google.NewTest@cb5822]" name="show" class="google.NewTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="NewTest.dance()[pri:0, instance:google.NewTest@cb5822]" name="dance" class="google.NewTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="160" started-at="2017-02-26T11:25:57Z" finished-at="2017-02-26T11:25:57Z">
+      <class name="google.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:google.NewTest@cb5822]" name="beforeSuite" is-config="true" duration-ms="35" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:google.NewTest@cb5822]" name="beforeTest" is-config="true" duration-ms="2" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:google.NewTest@cb5822]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:google.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dance()[pri:0, instance:google.NewTest@cb5822]" name="dance" duration-ms="18" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:google.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:google.NewTest@cb5822]" name="f" duration-ms="3" started-at="2017-02-26T16:55:57Z" data-provider="dp" finished-at="2017-02-26T16:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:google.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:google.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:google.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:google.NewTest@cb5822]" name="f" duration-ms="9" started-at="2017-02-26T16:55:57Z" data-provider="dp" finished-at="2017-02-26T16:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:google.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:google.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="show()[pri:0, instance:google.NewTest@cb5822]" name="show" duration-ms="3" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- show -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:google.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="dependsongrp()[pri:0, instance:google.NewTest@cb5822]" name="dependsongrp" duration-ms="4" depends-on-groups="smoke" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dependsongrp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:google.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:google.NewTest@cb5822]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:google.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:google.NewTest@cb5822]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:google.NewTest@cb5822]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- google.NewTest -->
+      <class name="google.testnew">
+        <test-method status="PASS" signature="f()[pri:0, instance:google.testnew@c0edeb]" name="f" duration-ms="3" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="m()[pri:0, instance:google.testnew@c0edeb]" name="m" duration-ms="10" started-at="2017-02-26T16:55:57Z" finished-at="2017-02-26T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+      </class> <!-- google.testnew -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

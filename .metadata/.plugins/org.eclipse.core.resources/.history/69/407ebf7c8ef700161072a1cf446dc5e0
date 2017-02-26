@@ -1,0 +1,49 @@
+package linkedIN;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class LinkedIn {
+
+	LinkedInWrapper lw = new LinkedInWrapper();
+	WebDriver driver = new FirefoxDriver();
+
+	@Test
+	public void startPage() throws IOException {
+
+		FileReader file = new FileReader("linkedIn.properties");
+
+		Properties prop = new Properties();
+		try {
+			prop.load(file);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		lw.launchFirefoxURL(prop.getProperty("url"));
+//		lw.launchChromeURL(prop.getProperty("url"));
+//		lw.launchInternetExplorerURL(prop.getProperty("url"));
+		
+	}
+	
+	@BeforeSuite
+	  public void beforeSuite() {
+		  String title = driver.getTitle();
+		  System.out.println(title);
+		  if(driver.getTitle().contains("google")){
+			  System.out.println("pass");
+		  }else{
+			  System.out.println("fail");
+		  }
+	  }
+	
+}
+
+

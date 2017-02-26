@@ -1,0 +1,24 @@
+package seleniumPackage;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+public class FrameworkProgamed {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WrapMethod wm = new WrapMethod();
+		FileReader file = new FileReader("prop2.properties");
+		
+		Properties prop = new Properties();
+		try {
+			prop.load(file);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

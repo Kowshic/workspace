@@ -1,0 +1,12 @@
+package seleniumPackage;
+
+import org.openqa.selenium.WebDriver;
+
+public class MyFrameworkWrapFile {
+
+	WebDriver driver;
+
+
+	
+
+}

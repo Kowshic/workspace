@@ -1,0 +1,12 @@
+package linkedIN;
+
+import org.testng.annotations.Test;
+
+public class LinkedIn {
+	
+	LinkedInWrapper wm = new LinkedInWrapper();
+	
+  @Test
+  public void f() {
+  }
+}
